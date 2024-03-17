@@ -3,14 +3,12 @@
   :url "http://example.com/FIXME"
   :license {:name "EPL-2.0 OR GPL-2.0-or-later WITH Classpath-exception-2.0"
             :url "https://www.eclipse.org/legal/epl-2.0/"}
-  :dependencies [
-                 [org.clojure/clojure "1.11.1"]
+  :dependencies [[org.clojure/clojure "1.11.1"]
                  [org.clojure/clojurescript "1.10.773"]
                  [org.clojure/core.async  "0.4.500"]
                  [reagent "0.10.0"]
                  [cljs-ajax/cljs-ajax "0.8.0"]
-                 [markdown-clj "1.12.0"]
-                 ]
+                 [markdown-clj "1.12.0"]]
 
   :plugins [[lein-figwheel "0.5.20"]
             [lein-cljsbuild "1.1.7" :exclusions [[org.clojure/clojure]]]]
@@ -44,5 +42,4 @@
                                   [figwheel-sidecar "0.5.20"]]
                    :source-paths ["src" "dev"]
                    :clean-targets ^{:protect false} ["resources/public/js/compiled"
-                                                     :target-path]}}
-  )
+                                                     :target-path]}})

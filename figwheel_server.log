@@ -6697,3 +6697,891 @@ Compiling build :dev to "resources/public/js/compiled/front.js" from ["src"]...
 ----  Compiler Warning : Please see src/front.cljs  ----
 Successfully compiled build :dev to "resources/public/js/compiled/front.js" in 0.584 seconds.
 notifying browser that file changed:  resources\public\js\compiled\out\front.js
+Compiling build :dev to "resources/public/js/compiled/front.js" from ["src"]...
+----  Compiler Warning on   src/front.cljs   line:1  column:1  ----
+
+  front is a single segment namespace
+
+  1  (ns front
+     ^--- front is a single segment namespace
+  2    (:require
+  3      [reagent.core :as reagent]
+  4      [reagent.dom :as rd]
+  5      [clojure.edn :as edn]
+  6      [ajax.core :refer [GET POST]]
+
+----  Compiler Warning : Please see src/front.cljs  ----
+----  Compiler Warning on   src/front.cljs   line:44  column:1  ----
+
+  update already refers to: cljs.core/update being replaced by: front/update
+
+  40         {:error println}
+  41         )
+  42    )
+  43  
+  44  (defn update []
+      ^--- update already refers to: cljs.core/update being replaced by: front/update
+  45    (get-post)
+  46    (get-comments)
+  47    )
+  48  
+  49  (defn sendForm [event]
+
+----  Compiler Warning : Please see src/front.cljs  ----
+Successfully compiled build :dev to "resources/public/js/compiled/front.js" in 0.797 seconds.
+notifying browser that file changed:  resources/public/js/compiled/out/goog/deps.js
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  resources\public\js\compiled\out\front.js
+Compiling build :dev to "resources/public/js/compiled/front.js" from ["src"]...
+----  Compiler Warning on   src/front.cljs   line:1  column:1  ----
+
+  front is a single segment namespace
+
+  1  (ns front
+     ^--- front is a single segment namespace
+  2    (:require
+  3      [reagent.core :as reagent]
+  4      [reagent.dom :as rd]
+  5      [clojure.edn :as edn]
+  6      [ajax.core :refer [GET POST]]
+
+----  Compiler Warning : Please see src/front.cljs  ----
+----  Compiler Warning on   src/front.cljs   line:44  column:1  ----
+
+  update already refers to: cljs.core/update being replaced by: front/update
+
+  40         {:error println}
+  41         )
+  42    )
+  43  
+  44  (defn update []
+      ^--- update already refers to: cljs.core/update being replaced by: front/update
+  45    (get-post)
+  46    (get-comments)
+  47    )
+  48  
+  49  (defn sendForm [event]
+
+----  Compiler Warning : Please see src/front.cljs  ----
+Successfully compiled build :dev to "resources/public/js/compiled/front.js" in 0.714 seconds.
+notifying browser that file changed:  resources\public\js\compiled\out\front.js
+Compiling build :dev to "resources/public/js/compiled/front.js" from ["src"]...
+----  Compiler Warning on   src/front.cljs   line:1  column:1  ----
+
+  front is a single segment namespace
+
+  1  (ns front
+     ^--- front is a single segment namespace
+  2    (:require
+  3      [reagent.core :as reagent]
+  4      [reagent.dom :as rd]
+  5      [clojure.edn :as edn]
+  6      [ajax.core :refer [GET POST]]
+
+----  Compiler Warning : Please see src/front.cljs  ----
+----  Compiler Warning on   src/front.cljs   line:44  column:1  ----
+
+  update already refers to: cljs.core/update being replaced by: front/update
+
+  40         {:error println}
+  41         )
+  42    )
+  43  
+  44  (defn update []
+      ^--- update already refers to: cljs.core/update being replaced by: front/update
+  45    (get-post)
+  46    (get-comments)
+  47    )
+  48  
+  49  (defn sendForm [event]
+
+----  Compiler Warning : Please see src/front.cljs  ----
+Successfully compiled build :dev to "resources/public/js/compiled/front.js" in 0.582 seconds.
+notifying browser that file changed:  resources\public\js\compiled\out\front.js
+Compiling build :dev to "resources/public/js/compiled/front.js" from ["src"]...
+----  Compiler Warning on   src/front.cljs   line:1  column:1  ----
+
+  front is a single segment namespace
+
+  1  (ns front
+     ^--- front is a single segment namespace
+  2    (:require
+  3      [reagent.core :as reagent]
+  4      [reagent.dom :as rd]
+  5      [clojure.edn :as edn]
+  6      [ajax.core :refer [GET POST]]
+
+----  Compiler Warning : Please see src/front.cljs  ----
+----  Compiler Warning on   src/front.cljs   line:44  column:1  ----
+
+  update already refers to: cljs.core/update being replaced by: front/update
+
+  40         {:error println}
+  41         )
+  42    )
+  43  
+  44  (defn update []
+      ^--- update already refers to: cljs.core/update being replaced by: front/update
+  45    (get-post)
+  46    (get-comments)
+  47    )
+  48  
+  49  (defn sendForm [event]
+
+----  Compiler Warning : Please see src/front.cljs  ----
+Successfully compiled build :dev to "resources/public/js/compiled/front.js" in 0.504 seconds.
+notifying browser that file changed:  resources\public\js\compiled\out\front.js
+Compiling build :dev to "resources/public/js/compiled/front.js" from ["src"]...
+----  Compiler Warning on   src/front.cljs   line:1  column:1  ----
+
+  front is a single segment namespace
+
+  1  (ns front
+     ^--- front is a single segment namespace
+  2    (:require
+  3      [reagent.core :as reagent]
+  4      [reagent.dom :as rd]
+  5      [clojure.edn :as edn]
+  6      [ajax.core :refer [GET POST]]
+
+----  Compiler Warning : Please see src/front.cljs  ----
+----  Compiler Warning on   src/front.cljs   line:44  column:1  ----
+
+  update already refers to: cljs.core/update being replaced by: front/update
+
+  40         {:error println}
+  41         )
+  42    )
+  43  
+  44  (defn update []
+      ^--- update already refers to: cljs.core/update being replaced by: front/update
+  45    (get-post)
+  46    (get-comments)
+  47    )
+  48  
+  49  (defn sendForm [event]
+
+----  Compiler Warning : Please see src/front.cljs  ----
+----  Compiler Warning on   src/front.cljs   line:68  column:45  ----
+
+  Use of undeclared Var front/raw-response-format
+
+  64                        (.append "name" name)
+  65                        (.append "text" text)
+  66                        (.append "image" image "image.jpg"))]
+  67        (POST "/send-file" {:body form-data
+  68                            :response-format (raw-response-format)
+                                                  ^--- Use of undeclared Var front/raw-response-format
+  69                            :timeout 100}))
+  70  
+  71    ))
+  72  
+  73  (defn thread-button [text onclick]
+
+----  Compiler Warning : Please see src/front.cljs  ----
+Successfully compiled build :dev to "resources/public/js/compiled/front.js" in 0.478 seconds.
+notifying browser that file changed:  resources\public\js\compiled\out\front.js
+Compiling build :dev to "resources/public/js/compiled/front.js" from ["src"]...
+----  Compiler Warning on   src/front.cljs   line:1  column:1  ----
+
+  front is a single segment namespace
+
+  1  (ns front
+     ^--- front is a single segment namespace
+  2    (:require
+  3      [reagent.core :as reagent]
+  4      [reagent.dom :as rd]
+  5      [clojure.edn :as edn]
+  6      [ajax.core :refer [GET POST]]
+
+----  Compiler Warning : Please see src/front.cljs  ----
+----  Compiler Warning on   src/front.cljs   line:44  column:1  ----
+
+  update already refers to: cljs.core/update being replaced by: front/update
+
+  40         {:error println}
+  41         )
+  42    )
+  43  
+  44  (defn update []
+      ^--- update already refers to: cljs.core/update being replaced by: front/update
+  45    (get-post)
+  46    (get-comments)
+  47    )
+  48  
+  49  (defn sendForm [event]
+
+----  Compiler Warning : Please see src/front.cljs  ----
+Successfully compiled build :dev to "resources/public/js/compiled/front.js" in 0.493 seconds.
+notifying browser that file changed:  resources\public\js\compiled\out\front.js
+Compiling build :dev to "resources/public/js/compiled/front.js" from ["src"]...
+----  Compiler Warning on   src/front.cljs   line:1  column:1  ----
+
+  front is a single segment namespace
+
+  1  (ns front
+     ^--- front is a single segment namespace
+  2    (:require
+  3      [reagent.core :as reagent]
+  4      [reagent.dom :as rd]
+  5      [clojure.edn :as edn]
+  6      [ajax.core :refer [GET POST]]
+
+----  Compiler Warning : Please see src/front.cljs  ----
+----  Compiler Warning on   src/front.cljs   line:44  column:1  ----
+
+  update already refers to: cljs.core/update being replaced by: front/update
+
+  40         {:error println}
+  41         )
+  42    )
+  43  
+  44  (defn update []
+      ^--- update already refers to: cljs.core/update being replaced by: front/update
+  45    (get-post)
+  46    (get-comments)
+  47    )
+  48  
+  49  (defn sendForm [event]
+
+----  Compiler Warning : Please see src/front.cljs  ----
+Successfully compiled build :dev to "resources/public/js/compiled/front.js" in 0.475 seconds.
+notifying browser that file changed:  resources\public\js\compiled\out\front.js
+Compiling build :dev to "resources/public/js/compiled/front.js" from ["src"]...
+----  Compiler Warning on   src/front.cljs   line:1  column:1  ----
+
+  front is a single segment namespace
+
+  1  (ns front
+     ^--- front is a single segment namespace
+  2    (:require
+  3      [reagent.core :as reagent]
+  4      [reagent.dom :as rd]
+  5      [clojure.edn :as edn]
+  6      [ajax.core :refer [GET POST]]
+
+----  Compiler Warning : Please see src/front.cljs  ----
+----  Compiler Warning on   src/front.cljs   line:44  column:1  ----
+
+  update already refers to: cljs.core/update being replaced by: front/update
+
+  40         {:error println}
+  41         )
+  42    )
+  43  
+  44  (defn update []
+      ^--- update already refers to: cljs.core/update being replaced by: front/update
+  45    (get-post)
+  46    (get-comments)
+  47    )
+  48  
+  49  (defn sendForm [event]
+
+----  Compiler Warning : Please see src/front.cljs  ----
+Successfully compiled build :dev to "resources/public/js/compiled/front.js" in 0.452 seconds.
+notifying browser that file changed:  resources\public\js\compiled\out\front.js
+Compiling build :dev to "resources/public/js/compiled/front.js" from ["src"]...
+----  Compiler Warning on   src/front.cljs   line:1  column:1  ----
+
+  front is a single segment namespace
+
+  1  (ns front
+     ^--- front is a single segment namespace
+  2    (:require
+  3      [reagent.core :as reagent]
+  4      [reagent.dom :as rd]
+  5      [clojure.edn :as edn]
+  6      [ajax.core :refer [GET POST]]
+
+----  Compiler Warning : Please see src/front.cljs  ----
+----  Compiler Warning on   src/front.cljs   line:44  column:1  ----
+
+  update already refers to: cljs.core/update being replaced by: front/update
+
+  40         {:error println}
+  41         )
+  42    )
+  43  
+  44  (defn update []
+      ^--- update already refers to: cljs.core/update being replaced by: front/update
+  45    (get-post)
+  46    (get-comments)
+  47    )
+  48  
+  49  (defn sendForm [event]
+
+----  Compiler Warning : Please see src/front.cljs  ----
+Successfully compiled build :dev to "resources/public/js/compiled/front.js" in 1.917 seconds.
+notifying browser that file changed:  resources\public\js\compiled\out\front.js
+Compiling build :dev to "resources/public/js/compiled/front.js" from ["src"]...
+----  Compiler Warning on   src/front.cljs   line:1  column:1  ----
+
+  front is a single segment namespace
+
+  1  (ns front
+     ^--- front is a single segment namespace
+  2    (:require
+  3      [reagent.core :as reagent]
+  4      [reagent.dom :as rd]
+  5      [clojure.edn :as edn]
+  6      [ajax.core :refer [GET POST]]
+
+----  Compiler Warning : Please see src/front.cljs  ----
+----  Compiler Warning on   src/front.cljs   line:44  column:1  ----
+
+  update already refers to: cljs.core/update being replaced by: front/update
+
+  40         {:error println}
+  41         )
+  42    )
+  43  
+  44  (defn update []
+      ^--- update already refers to: cljs.core/update being replaced by: front/update
+  45    (get-post)
+  46    (get-comments)
+  47    )
+  48  
+  49  (defn sendForm [event]
+
+----  Compiler Warning : Please see src/front.cljs  ----
+Successfully compiled build :dev to "resources/public/js/compiled/front.js" in 0.463 seconds.
+notifying browser that file changed:  resources\public\js\compiled\out\front.js
+Compiling build :dev to "resources/public/js/compiled/front.js" from ["src"]...
+----  Compiler Warning on   src/front.cljs   line:1  column:1  ----
+
+  front is a single segment namespace
+
+  1  (ns front
+     ^--- front is a single segment namespace
+  2    (:require
+  3      [reagent.core :as reagent]
+  4      [reagent.dom :as rd]
+  5      [clojure.edn :as edn]
+  6      [ajax.core :refer [GET POST]]
+
+----  Compiler Warning : Please see src/front.cljs  ----
+----  Compiler Warning on   src/front.cljs   line:44  column:1  ----
+
+  update already refers to: cljs.core/update being replaced by: front/update
+
+  40         {:error println}
+  41         )
+  42    )
+  43  
+  44  (defn update []
+      ^--- update already refers to: cljs.core/update being replaced by: front/update
+  45    (get-post)
+  46    (get-comments)
+  47    )
+  48  
+  49  (defn sendForm [event]
+
+----  Compiler Warning : Please see src/front.cljs  ----
+Successfully compiled build :dev to "resources/public/js/compiled/front.js" in 0.462 seconds.
+notifying browser that file changed:  resources\public\js\compiled\out\front.js
+Compiling build :dev to "resources/public/js/compiled/front.js" from ["src"]...
+----  Compiler Warning on   src/front.cljs   line:1  column:1  ----
+
+  front is a single segment namespace
+
+  1  (ns front
+     ^--- front is a single segment namespace
+  2    (:require
+  3      [reagent.core :as reagent]
+  4      [reagent.dom :as rd]
+  5      [clojure.edn :as edn]
+  6      [ajax.core :refer [GET POST]]
+
+----  Compiler Warning : Please see src/front.cljs  ----
+----  Compiler Warning on   src/front.cljs   line:44  column:1  ----
+
+  update already refers to: cljs.core/update being replaced by: front/update
+
+  40         {:error println}
+  41         )
+  42    )
+  43  
+  44  (defn update []
+      ^--- update already refers to: cljs.core/update being replaced by: front/update
+  45    (get-post)
+  46    (get-comments)
+  47    )
+  48  
+  49  (defn sendForm [event]
+
+----  Compiler Warning : Please see src/front.cljs  ----
+Successfully compiled build :dev to "resources/public/js/compiled/front.js" in 0.453 seconds.
+notifying browser that file changed:  resources\public\js\compiled\out\front.js
+Compiling build :dev to "resources/public/js/compiled/front.js" from ["src"]...
+----  Compiler Warning on   src/front.cljs   line:1  column:1  ----
+
+  front is a single segment namespace
+
+  1  (ns front
+     ^--- front is a single segment namespace
+  2    (:require
+  3      [reagent.core :as reagent]
+  4      [reagent.dom :as rd]
+  5      [clojure.edn :as edn]
+  6      [ajax.core :refer [GET POST]]
+
+----  Compiler Warning : Please see src/front.cljs  ----
+----  Compiler Warning on   src/front.cljs   line:44  column:1  ----
+
+  update already refers to: cljs.core/update being replaced by: front/update
+
+  40         {:error println}
+  41         )
+  42    )
+  43  
+  44  (defn update []
+      ^--- update already refers to: cljs.core/update being replaced by: front/update
+  45    (get-post)
+  46    (get-comments)
+  47    )
+  48  
+  49  (defn sendForm [event]
+
+----  Compiler Warning : Please see src/front.cljs  ----
+Successfully compiled build :dev to "resources/public/js/compiled/front.js" in 0.451 seconds.
+notifying browser that file changed:  resources\public\js\compiled\out\front.js
+Compiling build :dev to "resources/public/js/compiled/front.js" from ["src"]...
+----  Compiler Warning on   src/front.cljs   line:1  column:1  ----
+
+  front is a single segment namespace
+
+  1  (ns front
+     ^--- front is a single segment namespace
+  2    (:require
+  3      [reagent.core :as reagent]
+  4      [reagent.dom :as rd]
+  5      [clojure.edn :as edn]
+  6      [ajax.core :refer [GET POST]]
+
+----  Compiler Warning : Please see src/front.cljs  ----
+----  Compiler Warning on   src/front.cljs   line:44  column:1  ----
+
+  update already refers to: cljs.core/update being replaced by: front/update
+
+  40         {:error println}
+  41         )
+  42    )
+  43  
+  44  (defn update []
+      ^--- update already refers to: cljs.core/update being replaced by: front/update
+  45    (get-post)
+  46    (get-comments)
+  47    )
+  48  
+  49  (defn sendForm [event]
+
+----  Compiler Warning : Please see src/front.cljs  ----
+Successfully compiled build :dev to "resources/public/js/compiled/front.js" in 0.481 seconds.
+notifying browser that file changed:  resources\public\js\compiled\out\front.js
+Compiling build :dev to "resources/public/js/compiled/front.js" from ["src"]...
+----  Compiler Warning on   src/front.cljs   line:1  column:1  ----
+
+  front is a single segment namespace
+
+  1  (ns front
+     ^--- front is a single segment namespace
+  2    (:require
+  3      [reagent.core :as reagent]
+  4      [reagent.dom :as rd]
+  5      [clojure.edn :as edn]
+  6      [ajax.core :refer [GET POST]]
+
+----  Compiler Warning : Please see src/front.cljs  ----
+----  Compiler Warning on   src/front.cljs   line:44  column:1  ----
+
+  update already refers to: cljs.core/update being replaced by: front/update
+
+  40         {:error println}
+  41         )
+  42    )
+  43  
+  44  (defn update []
+      ^--- update already refers to: cljs.core/update being replaced by: front/update
+  45    (get-post)
+  46    (get-comments)
+  47    )
+  48  
+  49  (defn sendForm [event]
+
+----  Compiler Warning : Please see src/front.cljs  ----
+Successfully compiled build :dev to "resources/public/js/compiled/front.js" in 0.419 seconds.
+notifying browser that file changed:  resources\public\js\compiled\out\front.js
+Compiling build :dev to "resources/public/js/compiled/front.js" from ["src"]...
+----  Compiler Warning on   src/front.cljs   line:1  column:1  ----
+
+  front is a single segment namespace
+
+  1  (ns front
+     ^--- front is a single segment namespace
+  2    (:require
+  3      [reagent.core :as reagent]
+  4      [reagent.dom :as rd]
+  5      [clojure.edn :as edn]
+  6      [ajax.core :refer [GET POST]]
+
+----  Compiler Warning : Please see src/front.cljs  ----
+----  Compiler Warning on   src/front.cljs   line:44  column:1  ----
+
+  update already refers to: cljs.core/update being replaced by: front/update
+
+  40         {:error println}
+  41         )
+  42    )
+  43  
+  44  (defn update []
+      ^--- update already refers to: cljs.core/update being replaced by: front/update
+  45    (get-post)
+  46    (get-comments)
+  47    )
+  48  
+  49  (defn sendForm [event]
+
+----  Compiler Warning : Please see src/front.cljs  ----
+Successfully compiled build :dev to "resources/public/js/compiled/front.js" in 0.481 seconds.
+notifying browser that file changed:  resources\public\js\compiled\out\front.js
+Compiling build :dev to "resources/public/js/compiled/front.js" from ["src"]...
+----  Compiler Warning on   src/front.cljs   line:1  column:1  ----
+
+  front is a single segment namespace
+
+  1  (ns front
+     ^--- front is a single segment namespace
+  2    (:require
+  3      [reagent.core :as reagent]
+  4      [reagent.dom :as rd]
+  5      [clojure.edn :as edn]
+  6      [ajax.core :refer [GET POST]]
+
+----  Compiler Warning : Please see src/front.cljs  ----
+----  Compiler Warning on   src/front.cljs   line:44  column:1  ----
+
+  update already refers to: cljs.core/update being replaced by: front/update
+
+  40         {:error println}
+  41         )
+  42    )
+  43  
+  44  (defn update []
+      ^--- update already refers to: cljs.core/update being replaced by: front/update
+  45    (get-post)
+  46    (get-comments)
+  47    )
+  48  
+  49  (defn sendForm [event]
+
+----  Compiler Warning : Please see src/front.cljs  ----
+Successfully compiled build :dev to "resources/public/js/compiled/front.js" in 0.423 seconds.
+notifying browser that file changed:  resources\public\js\compiled\out\front.js
+Compiling build :dev to "resources/public/js/compiled/front.js" from ["src"]...
+----  Compiler Warning on   src/front.cljs   line:1  column:1  ----
+
+  front is a single segment namespace
+
+  1  (ns front
+     ^--- front is a single segment namespace
+  2    (:require
+  3      [reagent.core :as reagent]
+  4      [reagent.dom :as rd]
+  5      [clojure.edn :as edn]
+  6      [ajax.core :refer [GET POST]]
+
+----  Compiler Warning : Please see src/front.cljs  ----
+----  Compiler Warning on   src/front.cljs   line:44  column:1  ----
+
+  update already refers to: cljs.core/update being replaced by: front/update
+
+  40         {:error println}
+  41         )
+  42    )
+  43  
+  44  (defn update []
+      ^--- update already refers to: cljs.core/update being replaced by: front/update
+  45    (get-post)
+  46    (get-comments)
+  47    )
+  48  
+  49  (defn sendForm [event]
+
+----  Compiler Warning : Please see src/front.cljs  ----
+Successfully compiled build :dev to "resources/public/js/compiled/front.js" in 0.437 seconds.
+notifying browser that file changed:  resources\public\js\compiled\out\front.js
+Compiling build :dev to "resources/public/js/compiled/front.js" from ["src"]...
+----  Compiler Warning on   src/front.cljs   line:1  column:1  ----
+
+  front is a single segment namespace
+
+  1  (ns front
+     ^--- front is a single segment namespace
+  2    (:require
+  3      [reagent.core :as reagent]
+  4      [reagent.dom :as rd]
+  5      [clojure.edn :as edn]
+  6      [ajax.core :refer [GET POST]]
+
+----  Compiler Warning : Please see src/front.cljs  ----
+----  Compiler Warning on   src/front.cljs   line:44  column:1  ----
+
+  update already refers to: cljs.core/update being replaced by: front/update
+
+  40         {:error println}
+  41         )
+  42    )
+  43  
+  44  (defn update []
+      ^--- update already refers to: cljs.core/update being replaced by: front/update
+  45    (get-post)
+  46    (get-comments)
+  47    )
+  48  
+  49  (defn sendForm [event]
+
+----  Compiler Warning : Please see src/front.cljs  ----
+Successfully compiled build :dev to "resources/public/js/compiled/front.js" in 0.436 seconds.
+notifying browser that file changed:  resources\public\js\compiled\out\front.js
+Compiling build :dev to "resources/public/js/compiled/front.js" from ["src"]...
+----  Compiler Warning on   src/front.cljs   line:1  column:1  ----
+
+  front is a single segment namespace
+
+  1  (ns front
+     ^--- front is a single segment namespace
+  2    (:require
+  3      [reagent.core :as reagent]
+  4      [reagent.dom :as rd]
+  5      [clojure.edn :as edn]
+  6      [ajax.core :refer [GET POST]]
+
+----  Compiler Warning : Please see src/front.cljs  ----
+----  Compiler Warning on   src/front.cljs   line:44  column:1  ----
+
+  update already refers to: cljs.core/update being replaced by: front/update
+
+  40         {:error println}
+  41         )
+  42    )
+  43  
+  44  (defn update []
+      ^--- update already refers to: cljs.core/update being replaced by: front/update
+  45    (get-post)
+  46    (get-comments)
+  47    )
+  48  
+  49  (defn sendForm [event]
+
+----  Compiler Warning : Please see src/front.cljs  ----
+Failed to compile build :dev from ["src"] in 0.19 seconds.
+----  Could not Read  src/front.cljs   line:80 ----
+
+  F:\projects\idea\functional-programming-lab4\front\src\front.cljs [line 80, col 53] Invalid symbol: minimumIntegerDigits:.
+
+  79  (defn format-id [id]
+  80    (.toLocaleString id 'en-US' {minimumIntegerDigits: 2, useGrouping:false})
+        F:\projects\idea\functional-programming-lab4\front\src\front.cljs [line 80, col 53] Invalid symbol: minimumIntegerDigits:.
+  81    )
+  82  
+  83  (defn thread-button [text onclick]
+
+----  Reader Error : Please see src/front.cljs  ----
+Compiling build :dev to "resources/public/js/compiled/front.js" from ["src"]...
+----  Compiler Warning on   src/front.cljs   line:1  column:1  ----
+
+  front is a single segment namespace
+
+  1  (ns front
+     ^--- front is a single segment namespace
+  2    (:require
+  3      [reagent.core :as reagent]
+  4      [reagent.dom :as rd]
+  5      [clojure.edn :as edn]
+  6      [ajax.core :refer [GET POST]]
+
+----  Compiler Warning : Please see src/front.cljs  ----
+----  Compiler Warning on   src/front.cljs   line:44  column:1  ----
+
+  update already refers to: cljs.core/update being replaced by: front/update
+
+  40         {:error println}
+  41         )
+  42    )
+  43  
+  44  (defn update []
+      ^--- update already refers to: cljs.core/update being replaced by: front/update
+  45    (get-post)
+  46    (get-comments)
+  47    )
+  48  
+  49  (defn sendForm [event]
+
+----  Compiler Warning : Please see src/front.cljs  ----
+Successfully compiled build :dev to "resources/public/js/compiled/front.js" in 0.442 seconds.
+notifying browser that file changed:  resources\public\js\compiled\out\front.js
+Compiling build :dev to "resources/public/js/compiled/front.js" from ["src"]...
+----  Compiler Warning on   src/front.cljs   line:1  column:1  ----
+
+  front is a single segment namespace
+
+  1  (ns front
+     ^--- front is a single segment namespace
+  2    (:require
+  3      [reagent.core :as reagent]
+  4      [reagent.dom :as rd]
+  5      [clojure.edn :as edn]
+  6      [ajax.core :refer [GET POST]]
+
+----  Compiler Warning : Please see src/front.cljs  ----
+----  Compiler Warning on   src/front.cljs   line:44  column:1  ----
+
+  update already refers to: cljs.core/update being replaced by: front/update
+
+  40         {:error println}
+  41         )
+  42    )
+  43  
+  44  (defn update []
+      ^--- update already refers to: cljs.core/update being replaced by: front/update
+  45    (get-post)
+  46    (get-comments)
+  47    )
+  48  
+  49  (defn sendForm [event]
+
+----  Compiler Warning : Please see src/front.cljs  ----
+Successfully compiled build :dev to "resources/public/js/compiled/front.js" in 0.614 seconds.
+notifying browser that file changed:  resources\public\js\compiled\out\front.js
+Compiling build :dev to "resources/public/js/compiled/front.js" from ["src"]...
+----  Compiler Warning on   src/front.cljs   line:1  column:1  ----
+
+  front is a single segment namespace
+
+  1  (ns front
+     ^--- front is a single segment namespace
+  2    (:require
+  3      [reagent.core :as reagent]
+  4      [reagent.dom :as rd]
+  5      [clojure.edn :as edn]
+  6      [ajax.core :refer [GET POST]]
+
+----  Compiler Warning : Please see src/front.cljs  ----
+----  Compiler Warning on   src/front.cljs   line:44  column:1  ----
+
+  update already refers to: cljs.core/update being replaced by: front/update
+
+  40         {:error println}
+  41         )
+  42    )
+  43  
+  44  (defn update []
+      ^--- update already refers to: cljs.core/update being replaced by: front/update
+  45    (get-post)
+  46    (get-comments)
+  47    )
+  48  
+  49  (defn sendForm [event]
+
+----  Compiler Warning : Please see src/front.cljs  ----
+Successfully compiled build :dev to "resources/public/js/compiled/front.js" in 0.389 seconds.
+notifying browser that file changed:  resources\public\js\compiled\out\front.js
+Compiling build :dev to "resources/public/js/compiled/front.js" from ["src"]...
+----  Compiler Warning on   src/front.cljs   line:1  column:1  ----
+
+  front is a single segment namespace
+
+  1  (ns front
+     ^--- front is a single segment namespace
+  2    (:require
+  3      [reagent.core :as reagent]
+  4      [reagent.dom :as rd]
+  5      [clojure.edn :as edn]
+  6      [ajax.core :refer [GET POST]]
+
+----  Compiler Warning : Please see src/front.cljs  ----
+----  Compiler Warning on   src/front.cljs   line:44  column:1  ----
+
+  update already refers to: cljs.core/update being replaced by: front/update
+
+  40         {:error println}
+  41         )
+  42    )
+  43  
+  44  (defn update []
+      ^--- update already refers to: cljs.core/update being replaced by: front/update
+  45    (get-post)
+  46    (get-comments)
+  47    )
+  48  
+  49  (defn sendForm [event]
+
+----  Compiler Warning : Please see src/front.cljs  ----
+Successfully compiled build :dev to "resources/public/js/compiled/front.js" in 0.63 seconds.
+notifying browser that file changed:  resources\public\js\compiled\out\front.js
+Compiling build :dev to "resources/public/js/compiled/front.js" from ["src"]...
+----  Compiler Warning on   src/front.cljs   line:1  column:1  ----
+
+  front is a single segment namespace
+
+  1  (ns front
+     ^--- front is a single segment namespace
+  2    (:require
+  3      [reagent.core :as reagent]
+  4      [reagent.dom :as rd]
+  5      [clojure.edn :as edn]
+  6      [ajax.core :refer [GET POST]]
+
+----  Compiler Warning : Please see src/front.cljs  ----
+----  Compiler Warning on   src/front.cljs   line:44  column:1  ----
+
+  update already refers to: cljs.core/update being replaced by: front/update
+
+  40         {:error println}
+  41         )
+  42    )
+  43  
+  44  (defn update []
+      ^--- update already refers to: cljs.core/update being replaced by: front/update
+  45    (get-post)
+  46    (get-comments)
+  47    )
+  48  
+  49  (defn sendForm [event]
+
+----  Compiler Warning : Please see src/front.cljs  ----
+Successfully compiled build :dev to "resources/public/js/compiled/front.js" in 0.566 seconds.
+notifying browser that file changed:  resources\public\js\compiled\out\front.js
+Compiling build :dev to "resources/public/js/compiled/front.js" from ["src"]...
+----  Compiler Warning on   src/front.cljs   line:1  column:1  ----
+
+  front is a single segment namespace
+
+  1  (ns front
+     ^--- front is a single segment namespace
+  2    (:require
+  3      [reagent.core :as reagent]
+  4      [reagent.dom :as rd]
+  5      [clojure.edn :as edn]
+  6      [ajax.core :refer [GET POST]]
+
+----  Compiler Warning : Please see src/front.cljs  ----
+----  Compiler Warning on   src/front.cljs   line:44  column:1  ----
+
+  update already refers to: cljs.core/update being replaced by: front/update
+
+  40         {:error println}
+  41         )
+  42    )
+  43  
+  44  (defn update []
+      ^--- update already refers to: cljs.core/update being replaced by: front/update
+  45    (get-post)
+  46    (get-comments)
+  47    )
+  48  
+  49  (defn sendForm [event]
+
+----  Compiler Warning : Please see src/front.cljs  ----
+Successfully compiled build :dev to "resources/public/js/compiled/front.js" in 0.64 seconds.
+notifying browser that file changed:  resources\public\js\compiled\out\front.js
