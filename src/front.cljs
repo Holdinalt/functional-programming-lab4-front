@@ -18,8 +18,7 @@
 
 (defn handle-comments-change [new-comm]
   (let [sorted (sort #(< (:id %1) (:id %2)) (edn/read-string new-comm))]
-    (reset! comms sorted)
-    )
+    (reset! comms sorted))
   (log (str "fetched comms " @comms)))
 
 (defn get-comments []
@@ -53,10 +52,8 @@
     (let [form-data (doto
                      (js/FormData.)
                       (.append "name" name)
-                      (.append "text" text)
-                      )
-          form-data (if image (doto form-data (.append "image" image "image.jpg"))  form-data)
-          ]
+                      (.append "text" text))
+          form-data (if image (doto form-data (.append "image" image "image.jpg"))  form-data)]
       (POST
         (str serverUrl "api/comments/add")
         ;{:body (doto form-data (.append "image" image "image.jpg"))
