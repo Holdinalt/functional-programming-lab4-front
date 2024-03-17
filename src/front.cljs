@@ -34,7 +34,7 @@
     {:handler handle-post-change}
     {:error println}))
 
-(defn update []
+(defn update-data []
   (get-post)
   (get-comments))
 
@@ -55,7 +55,7 @@
       (POST
         (str serverUrl "api/comments/add")
         {:body form-data
-         :handler update
+         :handler update-data
          :error println
          :timeout 100}))
 
@@ -76,7 +76,7 @@
 (defn thread-controls []
   [:div.threadControls
    (thread-button "Bottom" #())
-   (thread-button "Update" update)])
+   (thread-button "Update" update-data)])
 
 (defn comment-title [title author date id]
   [:div.commentTitle
@@ -144,6 +144,6 @@
 
  (. js/document (getElementById "app")))
 
-(update)
+(update-data)
 
 (defn on-js-reload [])
