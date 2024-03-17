@@ -3,7 +3,7 @@
     [reagent.core :as reagent]
     [reagent.dom :as rd]
     [clojure.edn :as edn]
-    [ajax.core :refer [GET]]
+    [ajax.core :refer [GET POST]]
     [markdown.core :refer [md->html]]
     ))
 
@@ -54,11 +54,30 @@
         target (.-target event)
         name (.-value (first target))
         text (.-value (second target))
-        ;name (.-value (.-[2] target))
+        image (aget (.-files (aget target 2)) 0)
         ]
-    (log name)
-    (log text)
-    )
+    (.reset target)
+    (let [form-data (doto
+                      (js/FormData.)
+                      (.append "name" name)
+                      (.append "text" text)
+                      (.append "image" image "image.jpg"))]
+      (POST
+        (str serverUrl "api/comments/add")
+        {:body form-data
+         :handler update
+         :error println
+         :timeout 100}))
+
+    (.-reset target)
+  ))
+
+(defn format-date [time]
+  (.toLocaleString (js/Date. time))
+  )
+
+(defn format-id [id]
+  (when id (str ">> " (.toLocaleString id "en-US" #js {:minimumIntegerDigits 8 :useGrouping false})))
   )
 
 (defn thread-button [text onclick]
@@ -80,8 +99,8 @@
   [:div.commentTitle
    (when title [:span.commentTitleTitle title])
    [:span.commentTitleAuthor author]
-   [:span.commentTitleDate date]
-   [:span.commentTitleId id]
+   [:span.commentTitleDate (format-date date)]
+   [:span.commentTitleId (format-id id)]
    ]
   )
 
@@ -108,7 +127,8 @@
 
 (defn add-comment []
   [:div
-   [:form.addComment {:method "post" :id "form1" :action (str serverUrl "api/comments/add") :enc-type "multipart/form-data"}
+   ;[:form.addComment {:method "post" :id "form1" :action (str serverUrl "api/comments/add") :enc-type "multipart/form-data"}
+   [:form.addComment {:id "form1" :enc-type "multipart/form-data" :onSubmit sendForm}
     [:input#name {:name "name"}]
     [:textarea#text {:name "text"}]
     [:input#image {:type "file" :accept "image/png, image/jpeg" :name "image"}]
@@ -153,7 +173,7 @@
   [:div.header
    [:div "9Chan Logo"]
    [:div.topTittle "/a/ - Anime & Manga"]
-   [:img {:src (str serverUrl "api/file/screen.jpg") :style {:width 300 :height 200}}]
+   ;[:img {:src (str serverUrl "api/file/screen.jpg") :style {:width 300 :height 200}}]
    ]
   )
 
